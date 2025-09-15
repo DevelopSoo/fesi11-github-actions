@@ -1,8 +1,6 @@
 "use client";
 
-// 34kb 줄일 수는 없어 ㅠ
 import * as m from "motion/react-m";
-// import { motion } from "motion/react";
 
 export default function Home() {
   return (
