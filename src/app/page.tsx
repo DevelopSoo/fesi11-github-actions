@@ -5,6 +5,7 @@
 import { Button } from "devsoo-storybook-design-system";
 
 export default function Home() {
+  console.log("1");
   return (
     <>
       <Button variant="primary" size="lg" onClick={() => alert("하이")}>
