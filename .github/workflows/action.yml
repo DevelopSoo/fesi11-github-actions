@@ -1,0 +1,14 @@
+# 이름 짓기
+name: Github Actions 연습하기
+# 언제 해당 워크플로우가 실행될지
+on: push # git push 할 때마다 이걸 실행한다.
+
+# 뭘 할건데?
+jobs:
+  # 작업의 구체적인 이름
+  push-job:
+    # 실행할 환경을 설정
+    runs-on: ubuntu-latest
+    steps:
+      - name: 첫 번째 작업
+        run: echo "첫 번째 작업 실행 중"
