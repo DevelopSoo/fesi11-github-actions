@@ -1,7 +1,11 @@
 # 이름 짓기
 name: Github Actions로 테스트 자동화하기
 # 언제 해당 워크플로우가 실행될지
-on: push # git push 할 때마다 이걸 실행한다.
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened]
 
 # 뭘 할건데?
 jobs:
