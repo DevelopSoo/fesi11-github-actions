@@ -1,17 +1,6 @@
 "use client";
-
-// 34kb 줄일 수는 없어 ㅠ
-import * as m from "motion/react-m";
-// import { motion } from "motion/react";
+import { Button } from "@/components/Button";
 
 export default function Home() {
-  return (
-    <m.div
-      initial={{ x: -100, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-    >
-      왼쪽에서 슬라이드 인!
-    </m.div>
-  );
+  return <Button onClick={() => {}}>버튼</Button>;
 }
