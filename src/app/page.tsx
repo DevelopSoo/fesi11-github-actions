@@ -1,6 +1,15 @@
+// src/app/page.tsx
+
 "use client";
-import { Button } from "@/components/Button";
+
+import { Button } from "devsoo-storybook-design-system";
 
 export default function Home() {
-  return <Button onClick={() => {}}>버튼</Button>;
+  return (
+    <>
+      <Button variant="primary" size="lg" onClick={() => alert("하이")}>
+        안녕
+      </Button>
+    </>
+  );
 }
