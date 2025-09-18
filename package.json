@@ -27,6 +27,7 @@
     "devsoo-storybook-design-system": "^0.1.0",
     "jest-fixed-jsdom": "^0.0.10",
     "js-cookie": "^3.0.5",
+    "lint-staged": "^16.1.6",
     "lucide-react": "^0.542.0",
     "motion": "^12.23.12",
     "next": "15.5.2",
@@ -67,7 +68,6 @@
     "husky": "^9.1.7",
     "jest": "^30.1.3",
     "jest-environment-jsdom": "^30.1.2",
-    "lint-staged": "^16.1.6",
     "msw": "^2.11.2",
     "playwright": "^1.55.0",
     "prettier": "^3.6.2",
@@ -85,7 +85,7 @@
     ]
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write"
     ]

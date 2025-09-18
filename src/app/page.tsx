@@ -3,9 +3,8 @@
 'use client';
 
 import { Button } from 'devsoo-storybook-design-system';
-const c = 1;
+
 export default function Home() {
-  console.log('1');
   return (
     <>
       <Button variant="primary" size="lg" onClick={() => alert('하이')}>
