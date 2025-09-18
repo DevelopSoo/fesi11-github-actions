@@ -1,14 +1,14 @@
 // src/app/page.tsx
 
-"use client";
+'use client';
 
-import { Button } from "devsoo-storybook-design-system";
-
+import { Button } from 'devsoo-storybook-design-system';
+const c = 1;
 export default function Home() {
-  console.log("1");
+  console.log('1');
   return (
     <>
-      <Button variant="primary" size="lg" onClick={() => alert("하이")}>
+      <Button variant="primary" size="lg" onClick={() => alert('하이')}>
         안녕
       </Button>
     </>
