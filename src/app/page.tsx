@@ -1,15 +1,12 @@
 // src/app/page.tsx
 
-'use client';
-
-import { Button } from 'devsoo-storybook-design-system';
+"use client";
 
 export default function Home() {
   return (
     <>
-      <Button variant="primary" size="lg" onClick={() => alert('하이')}>
-        안녕
-      </Button>
+      <h1>환경변수</h1>
+      <div>{process.env.NEXT_PUBLIC_API}</div>
     </>
   );
 }
